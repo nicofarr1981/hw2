@@ -85,6 +85,18 @@ studio = Studio.new
 studio["name"] = "Warner Bros."
 studio.save
 
+movie = Movie.new
+movie["title"] = 
+movie["year_release"] = 
+movie["rated"] = 
+movie["studio_id"] = 
+
+
+
+# Batman Begins          2005           PG-13  Warner Bros.
+# The Dark Knight        2008           PG-13  Warner Bros.
+# The Dark Knight Rises  2012           PG-13  Warner Bros.
+
 # Prints a header for the movies output
 puts "Movies"
 puts "======"
